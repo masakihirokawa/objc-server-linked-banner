@@ -1,0 +1,677 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		60BD3F3C180649C800CB2032 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60BD3F3B180649C800CB2032 /* Foundation.framework */; };
+		60BD3F3E180649C800CB2032 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60BD3F3D180649C800CB2032 /* CoreGraphics.framework */; };
+		60BD3F40180649C800CB2032 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60BD3F3F180649C800CB2032 /* UIKit.framework */; };
+		60BD3F46180649C800CB2032 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 60BD3F44180649C800CB2032 /* InfoPlist.strings */; };
+		60BD3F48180649C800CB2032 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 60BD3F47180649C800CB2032 /* main.m */; };
+		60BD3F4F180649C800CB2032 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60BD3F4D180649C800CB2032 /* Main.storyboard */; };
+		60BD3F54180649C800CB2032 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60BD3F53180649C800CB2032 /* Images.xcassets */; };
+		60BD3F5B180649C900CB2032 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60BD3F5A180649C900CB2032 /* XCTest.framework */; };
+		60BD3F5C180649C900CB2032 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60BD3F3B180649C800CB2032 /* Foundation.framework */; };
+		60BD3F5D180649C900CB2032 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60BD3F3F180649C800CB2032 /* UIKit.framework */; };
+		60BD3F65180649C900CB2032 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 60BD3F63180649C900CB2032 /* InfoPlist.strings */; };
+		60BD3F67180649C900CB2032 /* ServerLinkedBannerSampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 60BD3F66180649C900CB2032 /* ServerLinkedBannerSampleTests.m */; };
+		60BD3F9818064A9600CB2032 /* DCBanner.m in Sources */ = {isa = PBXBuildFile; fileRef = 60BD3F8D18064A9600CB2032 /* DCBanner.m */; };
+		60BD3F9918064A9600CB2032 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 60BD3F9018064A9600CB2032 /* AppDelegate.m */; };
+		60BD3F9A18064A9600CB2032 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60BD3F9318064A9600CB2032 /* ViewController.m */; };
+		60BD3F9D18064B5600CB2032 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60BD3F9C18064B5600CB2032 /* MessageUI.framework */; };
+		60BD3F9F18064B6000CB2032 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60BD3F9E18064B6000CB2032 /* AudioToolbox.framework */; };
+		60BD3FA118064B6900CB2032 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60BD3FA018064B6900CB2032 /* Security.framework */; };
+		60BD3FA318064B7000CB2032 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60BD3FA218064B7000CB2032 /* AdSupport.framework */; };
+		60BD3FA518064B7B00CB2032 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60BD3FA418064B7B00CB2032 /* iAd.framework */; };
+		60BD3FA718064B8500CB2032 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60BD3FA618064B8500CB2032 /* SystemConfiguration.framework */; };
+		60BD3FA918064B8C00CB2032 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60BD3FA818064B8C00CB2032 /* StoreKit.framework */; };
+		60BD402218064DDE00CB2032 /* libGoogleAdMobAds.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 60BD401318064DDE00CB2032 /* libGoogleAdMobAds.a */; };
+		60BD402318064DDE00CB2032 /* libAdapterIAd.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 60BD401C18064DDE00CB2032 /* libAdapterIAd.a */; };
+		60BD402418064DDE00CB2032 /* libAdapterNend.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 60BD401E18064DDE00CB2032 /* libAdapterNend.a */; };
+		60BD402518064DDE00CB2032 /* libNendAd.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 60BD402018064DDE00CB2032 /* libNendAd.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		60BD3F5E180649C900CB2032 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 60BD3F30180649C800CB2032 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 60BD3F37180649C800CB2032;
+			remoteInfo = ServerLinkedBannerSample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		60BD3F38180649C800CB2032 /* ServerLinkedBannerSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ServerLinkedBannerSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		60BD3F3B180649C800CB2032 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		60BD3F3D180649C800CB2032 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		60BD3F3F180649C800CB2032 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		60BD3F43180649C800CB2032 /* ServerLinkedBannerSample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ServerLinkedBannerSample-Info.plist"; sourceTree = "<group>"; };
+		60BD3F45180649C800CB2032 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		60BD3F47180649C800CB2032 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		60BD3F49180649C800CB2032 /* ServerLinkedBannerSample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ServerLinkedBannerSample-Prefix.pch"; sourceTree = "<group>"; };
+		60BD3F4E180649C800CB2032 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		60BD3F53180649C800CB2032 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		60BD3F59180649C900CB2032 /* ServerLinkedBannerSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ServerLinkedBannerSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		60BD3F5A180649C900CB2032 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		60BD3F62180649C900CB2032 /* ServerLinkedBannerSampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ServerLinkedBannerSampleTests-Info.plist"; sourceTree = "<group>"; };
+		60BD3F64180649C900CB2032 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		60BD3F66180649C900CB2032 /* ServerLinkedBannerSampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ServerLinkedBannerSampleTests.m; sourceTree = "<group>"; };
+		60BD3F8C18064A9600CB2032 /* DCBanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCBanner.h; sourceTree = "<group>"; };
+		60BD3F8D18064A9600CB2032 /* DCBanner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCBanner.m; sourceTree = "<group>"; };
+		60BD3F8F18064A9600CB2032 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		60BD3F9018064A9600CB2032 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		60BD3F9218064A9600CB2032 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		60BD3F9318064A9600CB2032 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		60BD3F9C18064B5600CB2032 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		60BD3F9E18064B6000CB2032 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		60BD3FA018064B6900CB2032 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		60BD3FA218064B7000CB2032 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		60BD3FA418064B7B00CB2032 /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
+		60BD3FA618064B8500CB2032 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		60BD3FA818064B8C00CB2032 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		60BD400A18064DDE00CB2032 /* GADAdMobExtras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADAdMobExtras.h; sourceTree = "<group>"; };
+		60BD400B18064DDE00CB2032 /* GADAdNetworkExtras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADAdNetworkExtras.h; sourceTree = "<group>"; };
+		60BD400C18064DDE00CB2032 /* GADAdSize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADAdSize.h; sourceTree = "<group>"; };
+		60BD400D18064DDE00CB2032 /* GADBannerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADBannerView.h; sourceTree = "<group>"; };
+		60BD400E18064DDE00CB2032 /* GADBannerViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADBannerViewDelegate.h; sourceTree = "<group>"; };
+		60BD400F18064DDE00CB2032 /* GADInterstitial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADInterstitial.h; sourceTree = "<group>"; };
+		60BD401018064DDE00CB2032 /* GADInterstitialDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADInterstitialDelegate.h; sourceTree = "<group>"; };
+		60BD401118064DDE00CB2032 /* GADRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADRequest.h; sourceTree = "<group>"; };
+		60BD401218064DDE00CB2032 /* GADRequestError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADRequestError.h; sourceTree = "<group>"; };
+		60BD401318064DDE00CB2032 /* libGoogleAdMobAds.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libGoogleAdMobAds.a; sourceTree = "<group>"; };
+		60BD401518064DDE00CB2032 /* GADCustomEventBanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADCustomEventBanner.h; sourceTree = "<group>"; };
+		60BD401618064DDE00CB2032 /* GADCustomEventBannerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADCustomEventBannerDelegate.h; sourceTree = "<group>"; };
+		60BD401718064DDE00CB2032 /* GADCustomEventExtras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADCustomEventExtras.h; sourceTree = "<group>"; };
+		60BD401818064DDE00CB2032 /* GADCustomEventInterstitial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADCustomEventInterstitial.h; sourceTree = "<group>"; };
+		60BD401918064DDE00CB2032 /* GADCustomEventInterstitialDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADCustomEventInterstitialDelegate.h; sourceTree = "<group>"; };
+		60BD401A18064DDE00CB2032 /* GADCustomEventRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADCustomEventRequest.h; sourceTree = "<group>"; };
+		60BD401C18064DDE00CB2032 /* libAdapterIAd.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libAdapterIAd.a; sourceTree = "<group>"; };
+		60BD401E18064DDE00CB2032 /* libAdapterNend.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libAdapterNend.a; sourceTree = "<group>"; };
+		60BD402018064DDE00CB2032 /* libNendAd.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libNendAd.a; sourceTree = "<group>"; };
+		60BD402118064DDE00CB2032 /* NADView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NADView.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		60BD3F35180649C800CB2032 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60BD3FA918064B8C00CB2032 /* StoreKit.framework in Frameworks */,
+				60BD3FA718064B8500CB2032 /* SystemConfiguration.framework in Frameworks */,
+				60BD3FA518064B7B00CB2032 /* iAd.framework in Frameworks */,
+				60BD3FA318064B7000CB2032 /* AdSupport.framework in Frameworks */,
+				60BD402318064DDE00CB2032 /* libAdapterIAd.a in Frameworks */,
+				60BD402518064DDE00CB2032 /* libNendAd.a in Frameworks */,
+				60BD402218064DDE00CB2032 /* libGoogleAdMobAds.a in Frameworks */,
+				60BD3FA118064B6900CB2032 /* Security.framework in Frameworks */,
+				60BD3F9F18064B6000CB2032 /* AudioToolbox.framework in Frameworks */,
+				60BD3F9D18064B5600CB2032 /* MessageUI.framework in Frameworks */,
+				60BD3F3E180649C800CB2032 /* CoreGraphics.framework in Frameworks */,
+				60BD3F40180649C800CB2032 /* UIKit.framework in Frameworks */,
+				60BD3F3C180649C800CB2032 /* Foundation.framework in Frameworks */,
+				60BD402418064DDE00CB2032 /* libAdapterNend.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60BD3F56180649C900CB2032 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60BD3F5B180649C900CB2032 /* XCTest.framework in Frameworks */,
+				60BD3F5D180649C900CB2032 /* UIKit.framework in Frameworks */,
+				60BD3F5C180649C900CB2032 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		60BD3F2F180649C800CB2032 = {
+			isa = PBXGroup;
+			children = (
+				60BD3F41180649C800CB2032 /* ServerLinkedBannerSample */,
+				60BD3F60180649C900CB2032 /* ServerLinkedBannerSampleTests */,
+				60BD3F9B18064AC100CB2032 /* Ad Frameworks */,
+				60BD3F3A180649C800CB2032 /* Frameworks */,
+				60BD3F39180649C800CB2032 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		60BD3F39180649C800CB2032 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				60BD3F38180649C800CB2032 /* ServerLinkedBannerSample.app */,
+				60BD3F59180649C900CB2032 /* ServerLinkedBannerSampleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		60BD3F3A180649C800CB2032 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				60BD3F3B180649C800CB2032 /* Foundation.framework */,
+				60BD3F3D180649C800CB2032 /* CoreGraphics.framework */,
+				60BD3F3F180649C800CB2032 /* UIKit.framework */,
+				60BD3F5A180649C900CB2032 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		60BD3F41180649C800CB2032 /* ServerLinkedBannerSample */ = {
+			isa = PBXGroup;
+			children = (
+				60BD3F7018064A9600CB2032 /* Classes */,
+				60BD3F42180649C800CB2032 /* Supporting Files */,
+			);
+			path = ServerLinkedBannerSample;
+			sourceTree = "<group>";
+		};
+		60BD3F42180649C800CB2032 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				60BD3F49180649C800CB2032 /* ServerLinkedBannerSample-Prefix.pch */,
+				60BD3F43180649C800CB2032 /* ServerLinkedBannerSample-Info.plist */,
+				60BD3F44180649C800CB2032 /* InfoPlist.strings */,
+				60BD3F47180649C800CB2032 /* main.m */,
+				60BD3F4D180649C800CB2032 /* Main.storyboard */,
+				60BD3F53180649C800CB2032 /* Images.xcassets */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		60BD3F60180649C900CB2032 /* ServerLinkedBannerSampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				60BD3F66180649C900CB2032 /* ServerLinkedBannerSampleTests.m */,
+				60BD3F61180649C900CB2032 /* Supporting Files */,
+			);
+			path = ServerLinkedBannerSampleTests;
+			sourceTree = "<group>";
+		};
+		60BD3F61180649C900CB2032 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				60BD3F62180649C900CB2032 /* ServerLinkedBannerSampleTests-Info.plist */,
+				60BD3F63180649C900CB2032 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		60BD3F7018064A9600CB2032 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				60BD400818064DDE00CB2032 /* Ad */,
+				60BD3F8B18064A9600CB2032 /* DCLibrary */,
+				60BD3F8E18064A9600CB2032 /* Delegate */,
+				60BD3F9118064A9600CB2032 /* Screen */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		60BD3F8B18064A9600CB2032 /* DCLibrary */ = {
+			isa = PBXGroup;
+			children = (
+				60BD3F8C18064A9600CB2032 /* DCBanner.h */,
+				60BD3F8D18064A9600CB2032 /* DCBanner.m */,
+			);
+			path = DCLibrary;
+			sourceTree = "<group>";
+		};
+		60BD3F8E18064A9600CB2032 /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				60BD3F8F18064A9600CB2032 /* AppDelegate.h */,
+				60BD3F9018064A9600CB2032 /* AppDelegate.m */,
+			);
+			path = Delegate;
+			sourceTree = "<group>";
+		};
+		60BD3F9118064A9600CB2032 /* Screen */ = {
+			isa = PBXGroup;
+			children = (
+				60BD3F9218064A9600CB2032 /* ViewController.h */,
+				60BD3F9318064A9600CB2032 /* ViewController.m */,
+			);
+			path = Screen;
+			sourceTree = "<group>";
+		};
+		60BD3F9B18064AC100CB2032 /* Ad Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				60BD3FA818064B8C00CB2032 /* StoreKit.framework */,
+				60BD3FA618064B8500CB2032 /* SystemConfiguration.framework */,
+				60BD3FA418064B7B00CB2032 /* iAd.framework */,
+				60BD3FA218064B7000CB2032 /* AdSupport.framework */,
+				60BD3FA018064B6900CB2032 /* Security.framework */,
+				60BD3F9E18064B6000CB2032 /* AudioToolbox.framework */,
+				60BD3F9C18064B5600CB2032 /* MessageUI.framework */,
+			);
+			name = "Ad Frameworks";
+			sourceTree = "<group>";
+		};
+		60BD400818064DDE00CB2032 /* Ad */ = {
+			isa = PBXGroup;
+			children = (
+				60BD400918064DDE00CB2032 /* AdMob */,
+				60BD401B18064DDE00CB2032 /* AdMob_iAdAdapter */,
+				60BD401D18064DDE00CB2032 /* AdMob_NendAdapter */,
+				60BD401F18064DDE00CB2032 /* Nend */,
+			);
+			path = Ad;
+			sourceTree = "<group>";
+		};
+		60BD400918064DDE00CB2032 /* AdMob */ = {
+			isa = PBXGroup;
+			children = (
+				60BD400A18064DDE00CB2032 /* GADAdMobExtras.h */,
+				60BD400B18064DDE00CB2032 /* GADAdNetworkExtras.h */,
+				60BD400C18064DDE00CB2032 /* GADAdSize.h */,
+				60BD400D18064DDE00CB2032 /* GADBannerView.h */,
+				60BD400E18064DDE00CB2032 /* GADBannerViewDelegate.h */,
+				60BD400F18064DDE00CB2032 /* GADInterstitial.h */,
+				60BD401018064DDE00CB2032 /* GADInterstitialDelegate.h */,
+				60BD401118064DDE00CB2032 /* GADRequest.h */,
+				60BD401218064DDE00CB2032 /* GADRequestError.h */,
+				60BD401318064DDE00CB2032 /* libGoogleAdMobAds.a */,
+				60BD401418064DDE00CB2032 /* Mediation */,
+			);
+			path = AdMob;
+			sourceTree = "<group>";
+		};
+		60BD401418064DDE00CB2032 /* Mediation */ = {
+			isa = PBXGroup;
+			children = (
+				60BD401518064DDE00CB2032 /* GADCustomEventBanner.h */,
+				60BD401618064DDE00CB2032 /* GADCustomEventBannerDelegate.h */,
+				60BD401718064DDE00CB2032 /* GADCustomEventExtras.h */,
+				60BD401818064DDE00CB2032 /* GADCustomEventInterstitial.h */,
+				60BD401918064DDE00CB2032 /* GADCustomEventInterstitialDelegate.h */,
+				60BD401A18064DDE00CB2032 /* GADCustomEventRequest.h */,
+			);
+			path = Mediation;
+			sourceTree = "<group>";
+		};
+		60BD401B18064DDE00CB2032 /* AdMob_iAdAdapter */ = {
+			isa = PBXGroup;
+			children = (
+				60BD401C18064DDE00CB2032 /* libAdapterIAd.a */,
+			);
+			path = AdMob_iAdAdapter;
+			sourceTree = "<group>";
+		};
+		60BD401D18064DDE00CB2032 /* AdMob_NendAdapter */ = {
+			isa = PBXGroup;
+			children = (
+				60BD401E18064DDE00CB2032 /* libAdapterNend.a */,
+			);
+			path = AdMob_NendAdapter;
+			sourceTree = "<group>";
+		};
+		60BD401F18064DDE00CB2032 /* Nend */ = {
+			isa = PBXGroup;
+			children = (
+				60BD402018064DDE00CB2032 /* libNendAd.a */,
+				60BD402118064DDE00CB2032 /* NADView.h */,
+			);
+			path = Nend;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		60BD3F37180649C800CB2032 /* ServerLinkedBannerSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 60BD3F6A180649C900CB2032 /* Build configuration list for PBXNativeTarget "ServerLinkedBannerSample" */;
+			buildPhases = (
+				60BD3F34180649C800CB2032 /* Sources */,
+				60BD3F35180649C800CB2032 /* Frameworks */,
+				60BD3F36180649C800CB2032 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ServerLinkedBannerSample;
+			productName = ServerLinkedBannerSample;
+			productReference = 60BD3F38180649C800CB2032 /* ServerLinkedBannerSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		60BD3F58180649C900CB2032 /* ServerLinkedBannerSampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 60BD3F6D180649C900CB2032 /* Build configuration list for PBXNativeTarget "ServerLinkedBannerSampleTests" */;
+			buildPhases = (
+				60BD3F55180649C900CB2032 /* Sources */,
+				60BD3F56180649C900CB2032 /* Frameworks */,
+				60BD3F57180649C900CB2032 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				60BD3F5F180649C900CB2032 /* PBXTargetDependency */,
+			);
+			name = ServerLinkedBannerSampleTests;
+			productName = ServerLinkedBannerSampleTests;
+			productReference = 60BD3F59180649C900CB2032 /* ServerLinkedBannerSampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		60BD3F30180649C800CB2032 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Masaki Hirokawa";
+				TargetAttributes = {
+					60BD3F58180649C900CB2032 = {
+						TestTargetID = 60BD3F37180649C800CB2032;
+					};
+				};
+			};
+			buildConfigurationList = 60BD3F33180649C800CB2032 /* Build configuration list for PBXProject "ServerLinkedBannerSample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 60BD3F2F180649C800CB2032;
+			productRefGroup = 60BD3F39180649C800CB2032 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				60BD3F37180649C800CB2032 /* ServerLinkedBannerSample */,
+				60BD3F58180649C900CB2032 /* ServerLinkedBannerSampleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		60BD3F36180649C800CB2032 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60BD3F54180649C800CB2032 /* Images.xcassets in Resources */,
+				60BD3F46180649C800CB2032 /* InfoPlist.strings in Resources */,
+				60BD3F4F180649C800CB2032 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60BD3F57180649C900CB2032 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60BD3F65180649C900CB2032 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		60BD3F34180649C800CB2032 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60BD3F9A18064A9600CB2032 /* ViewController.m in Sources */,
+				60BD3F9818064A9600CB2032 /* DCBanner.m in Sources */,
+				60BD3F48180649C800CB2032 /* main.m in Sources */,
+				60BD3F9918064A9600CB2032 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60BD3F55180649C900CB2032 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60BD3F67180649C900CB2032 /* ServerLinkedBannerSampleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		60BD3F5F180649C900CB2032 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 60BD3F37180649C800CB2032 /* ServerLinkedBannerSample */;
+			targetProxy = 60BD3F5E180649C900CB2032 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		60BD3F44180649C800CB2032 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				60BD3F45180649C800CB2032 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		60BD3F4D180649C800CB2032 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				60BD3F4E180649C800CB2032 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		60BD3F63180649C900CB2032 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				60BD3F64180649C900CB2032 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		60BD3F68180649C900CB2032 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		60BD3F69180649C900CB2032 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		60BD3F6B180649C900CB2032 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ServerLinkedBannerSample/ServerLinkedBannerSample-Prefix.pch";
+				INFOPLIST_FILE = "ServerLinkedBannerSample/ServerLinkedBannerSample-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/hirokawa/GitHub/objc-server-linked-banner/ServerLinkedBannerSample/ServerLinkedBannerSample/Classes/Ad/AdMob",
+					"/Users/hirokawa/GitHub/objc-server-linked-banner/ServerLinkedBannerSample/ServerLinkedBannerSample/Classes/Ad/AdMob_iAdAdapter",
+					"/Users/hirokawa/GitHub/objc-server-linked-banner/ServerLinkedBannerSample/ServerLinkedBannerSample/Classes/Ad/AdMob_NendAdapter",
+					"/Users/hirokawa/GitHub/objc-server-linked-banner/ServerLinkedBannerSample/ServerLinkedBannerSample/Classes/Ad/Nend",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		60BD3F6C180649C900CB2032 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ServerLinkedBannerSample/ServerLinkedBannerSample-Prefix.pch";
+				INFOPLIST_FILE = "ServerLinkedBannerSample/ServerLinkedBannerSample-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/hirokawa/GitHub/objc-server-linked-banner/ServerLinkedBannerSample/ServerLinkedBannerSample/Classes/Ad/AdMob",
+					"/Users/hirokawa/GitHub/objc-server-linked-banner/ServerLinkedBannerSample/ServerLinkedBannerSample/Classes/Ad/AdMob_iAdAdapter",
+					"/Users/hirokawa/GitHub/objc-server-linked-banner/ServerLinkedBannerSample/ServerLinkedBannerSample/Classes/Ad/AdMob_NendAdapter",
+					"/Users/hirokawa/GitHub/objc-server-linked-banner/ServerLinkedBannerSample/ServerLinkedBannerSample/Classes/Ad/Nend",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		60BD3F6E180649C900CB2032 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ServerLinkedBannerSample.app/ServerLinkedBannerSample";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ServerLinkedBannerSample/ServerLinkedBannerSample-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ServerLinkedBannerSampleTests/ServerLinkedBannerSampleTests-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/hirokawa/GitHub/objc-server-linked-banner/ServerLinkedBannerSample/ServerLinkedBannerSample/Classes/Ad/AdMob",
+					"/Users/hirokawa/GitHub/objc-server-linked-banner/ServerLinkedBannerSample/ServerLinkedBannerSample/Classes/Ad/AdMob_iAdAdapter",
+					"/Users/hirokawa/GitHub/objc-server-linked-banner/ServerLinkedBannerSample/ServerLinkedBannerSample/Classes/Ad/AdMob_NendAdapter",
+					"/Users/hirokawa/GitHub/objc-server-linked-banner/ServerLinkedBannerSample/ServerLinkedBannerSample/Classes/Ad/Nend",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		60BD3F6F180649C900CB2032 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ServerLinkedBannerSample.app/ServerLinkedBannerSample";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ServerLinkedBannerSample/ServerLinkedBannerSample-Prefix.pch";
+				INFOPLIST_FILE = "ServerLinkedBannerSampleTests/ServerLinkedBannerSampleTests-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/hirokawa/GitHub/objc-server-linked-banner/ServerLinkedBannerSample/ServerLinkedBannerSample/Classes/Ad/AdMob",
+					"/Users/hirokawa/GitHub/objc-server-linked-banner/ServerLinkedBannerSample/ServerLinkedBannerSample/Classes/Ad/AdMob_iAdAdapter",
+					"/Users/hirokawa/GitHub/objc-server-linked-banner/ServerLinkedBannerSample/ServerLinkedBannerSample/Classes/Ad/AdMob_NendAdapter",
+					"/Users/hirokawa/GitHub/objc-server-linked-banner/ServerLinkedBannerSample/ServerLinkedBannerSample/Classes/Ad/Nend",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		60BD3F33180649C800CB2032 /* Build configuration list for PBXProject "ServerLinkedBannerSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60BD3F68180649C900CB2032 /* Debug */,
+				60BD3F69180649C900CB2032 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		60BD3F6A180649C900CB2032 /* Build configuration list for PBXNativeTarget "ServerLinkedBannerSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60BD3F6B180649C900CB2032 /* Debug */,
+				60BD3F6C180649C900CB2032 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		60BD3F6D180649C900CB2032 /* Build configuration list for PBXNativeTarget "ServerLinkedBannerSampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60BD3F6E180649C900CB2032 /* Debug */,
+				60BD3F6F180649C900CB2032 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 60BD3F30180649C800CB2032 /* Project object */;
+}
